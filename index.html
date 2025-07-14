@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazing Portfolio</title>
+    <meta name="description" contents="I am abc and a passionatefull stack developer with mern">
+    <meta name="author" contenys="abc xyz">
+    <meta name="keywords" contents="html,css,js,web developer,full stack developer">
+    <meta property="og:title " contents="abc">
+    <link rel="stylesheet" href="internportfolio.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Sidhi's Portfolio</h1>
+        <p>Web Developer</p>
+        <img src="sidhiimage.jpg" />
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I am Sidhi, a passionate web development student with a strong interest in frontend design and user experience. My goal is to become a full-stack developer and work on real-world projects that solve meaningful problems.</p>
+
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Proficient</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Proficient</td>
+                        
+                    </tr>
+                    <tr>
+
+                        <td>JavaScript</td>
+                        <td>Proficient</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>MERN Stack</td>
+                        <td>Beginner</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>My very first website built with HTML5! Features semantic markup, responsive design, and modern web
+                    standards.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3</p>
+                <p><strong>Status:</strong> Completed </p>
+                <a href=" https://github.com/sidhianand/PORTFOLIO-WEBSITE">VIEW CODE ON GITHUB</a>
+                <br>
+                <a href="  https://sidhianand.github.io/PORTFOLIO-WEBSITE/">VIEW LIVE WEBSITE</a>
+
+            </article>
+            <article class="project-card">
+                <h3>CSS MINI PROJECT</h3>
+                <p>An exciting WEBSITE build with HTML and CSS. It will showcase my growing skills in web
+                    development.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3 </p>
+                <p><strong>Status:</strong>Completed</p>
+                <a href=" https://github.com/sidhianand/css-mini-project.git">VIEW CODE ON GITHUB</a>
+                <br>
+                <a href=" https://sidhianand.github.io/css-mini-project/">VIEW LIVE WEBSITE</a>
+            </article>
+            <article class="project-card">
+                <h3>"Simon Says" Game – JavaScript Mini Project</h3>
+                <p>Built an interactive Simon Says game using HTML, CSS, and JavaScript. The game tests users' memory by generating and displaying color patterns that players must repeat. It showcases DOM manipulation, event handling, and use of arrays and timeouts to create dynamic and engaging user interaction.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3,JS </p>
+                <p><strong>Status:</strong>Completed</p>
+                <a href="https://github.com/sidhianand/JavaScript-mini-project-simon-says-game.git">VIEW CODE ON GITHUB</a>
+                <br>
+                <a href="https://sidhianand.github.io/JavaScript-mini-project-simon-says-game/">VIEW LIVE WEBSITE</a>
+            </article>
+            <article class="project-card">
+                <h3>Spotify Clone – Music Streaming UI with HTML, CSS & JavaScript</h3>
+                <p>Created a responsive Spotify clone using HTML, CSS, and JavaScript, replicating the core layout and design of the original platform. The project includes features like a music player interface, play/pause controls, progress bar, and interactive UI elements, showcasing front-end development skills and DOM manipulation.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3,JS </p>
+                <p><strong>Status:</strong>Completed</p>
+                <a href="https://github.com/sidhianand/Spotify-clone.git">VIEW CODE ON GITHUB</a>
+                <br>
+                <a href=" https://sidhianand.github.io/Spotify-clone/">VIEW LIVE WEBSITE</a>
+            </article>
+
+
+
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>I'd love to hear from you! Whether you have a project idea, want to collaborate, or just want to say
+                hello, don't hesitate to reach out.</p>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your email">
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="project">New Project</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="question">Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Tell me about your project or just say hello!"></textarea>
+                </div>
+
+                <div>
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" id="newsletter" name="newsletter"></td>
+                            <td><label for="newsletter" style="display: inline;">Subscribe to my newsletter for web dev
+                                    tips!</label></td>
+                        </tr>
+                    </table>
+
+
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 written by Sidhi.Made with HTML and CSS </p>
+        <P>Connect with me:
+            <a target ="_blank"href="mailto:sidhianand31@gmail.com">Email</a>|
+            <a href="https://www.linkedin.com/in/sidhi-anand-02a620317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>|
+            <a href="https://github.com/sidhianand">GitHub </a>
+        </P>
+    </footer>
+
+</body>
+
+</html>
